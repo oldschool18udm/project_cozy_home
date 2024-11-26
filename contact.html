@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="img/fon.jpg">
+    <!--menu-->
+    <span><a href="index.html">О студии</a></span>
+    <span> <a href="uslugi.html">Услуги</a></span>
+    <span> <a href="contact.html">Связаться с нами</a></span>
+    <center>
+        <img src="img/woman.jpg" alt=""> <br>
+        Ирина Вольф. Руководитель отдела продаж <br>
+        Спасибо, что выбираете нас!  <br>
+        Наша служба поддержки работает 24/7, чтобы быть с вами на связи <br>
+        Заполните форму и мы свяжемся с Вами. <br>
+    </center>
+        <form action="#" method="get" enctype="multipart/form-data">
+            <div>Фамилия<input type="text" name="fam" value="" placeholder="Фамилия"></div>
+            <div>Имя<input type="text" name="name" value="" placeholder="Имя"></div>
+            <div>Телефон<input type="tel" name="phone" value="" ></div>
+    
+            <div>
+                Пол:
+                <p><input type="radio" name="food" value="pizza" checked>Мужской</p>
+                <p><input type="radio" name="food" value="salad">Женский</p>
+                <p><input type="radio" name="food" value="cake">Не скажу</p>
+                
+    
+            </div>
+
+            <div>
+                Укажите ваши потребности:
+                <p><input type="radio" name="drinks" value="tea">Купить недвижимость</p>
+                <p><input type="radio" name="drinks" value="coffe">Продать недвижимость</p>
+                <p><input type="radio" name="drinks" value="jucie" checked>Разработать дизайн помещения</p>
+                <p><input type="radio" name="drinks" value="jucie" >Выполнить ремонтные работы</p>              
+    
+            </div>
+            <br>
+            <div>
+                Укажите место расположения объекта недвижимости
+                <p><input type="checkbox" name="films" value="f1">Первомайский район</p>
+                <p><input type="checkbox" name="films" value="f2">Ленинский район</p>
+                <p><input type="checkbox" name="films" value="f3" >Октябрьский район</p>
+                <p><input type="checkbox" name="films" value="f4" >Устиновский район</p>
+                <p><input type="checkbox" name="films" value="f5" >Индустриальный район</p>
+                <p><input type="checkbox" name="films" value="f6" checked>За пределами Ижевска</p>
+                
+            </div>
+            <div>
+                <p>Приложите фото документа, удостоверяющего личность.
+                    <input type="file" name="foto">
+                </p>
+            </div>
+            <div>
+                Опишите Ваши пожелания к  объекту недвижимости. <br>
+                <textarea name="text" id="" rows="10" cols="20"></textarea>
+            </div>
+            
+            <div>
+                <button type="submit">Отправить</button>
+                <button type="reset">Очистить</button>
+            </div>
+    
+        </form>
+    
+
+</body>
+</html>
